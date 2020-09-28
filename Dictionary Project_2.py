@@ -1,3 +1,5 @@
+#simple dictionary program
+#Monk: A person who is always ready to learn !!
 import json
 from difflib import get_close_matches
 
@@ -17,11 +19,11 @@ def translate(word):
         if decide == "y":
             return data[get_close_matches(word , data.keys())[0]]
         elif decide == "n":
-            return("pugger your paw steps on wrong keys ")
+            return("Hi Monk! your paw steps on wrong keys ")
         else:
             return("You have entered wrong input please enter just y or n")
     else:
-        print("pugger your paw steps on wrong keys")
+        print("Hi Monk your paw steps on wrong keys")
 
 
 
