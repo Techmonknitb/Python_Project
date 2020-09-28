@@ -1,9 +1,11 @@
-import random
+#SIMPLE PROJECT :: PRAVEEN TIWARI
+# 
+import random  # TO IMPORT FOR RANDOM VALUES
 print("This is a dice stimulator")
-x = "y"
+x = "y"    # TO PLAY AGAIN
 
 while x == "y":
-    number = random.randint(1,6)
+    number = random.randint(1,6) # TO ACCEPT RANDOM INTEGER VALUE FROM 1_6
 
     if number == 1:
         print("----------")
@@ -41,5 +43,5 @@ while x == "y":
         print("| O    O |")
         print("| O    O |")
         print("----------")
-    x = input("Press y to roll again")
+    x = input("Press y to roll again") # TO PLAY AGAIN
     
